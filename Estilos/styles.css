@@ -1,0 +1,37 @@
+.Cabecera{
+  background-color: #333333;
+
+}
+ol{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+
+  
+}
+a, .Enlaces{
+  color: white;
+  text-decoration: none;
+}
+.Enlaces a{
+  padding-right: 20px;
+}
+.Final{
+  background-color: rgb(144, 190, 36);
+  height: 35px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+.HERO{
+  background-color: #7a7474;
+  padding-left: 22px;
+  color: rgb(54, 61, 61);
+  display: flex;
+}
+img{
+  width: 200px;
+  margin: 40px;
+  
+}
