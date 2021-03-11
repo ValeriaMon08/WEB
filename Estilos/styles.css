@@ -1,38 +1,29 @@
+body{
+  background-color: gray;  /*Forma en que se acomodan los componentes*/
+}
 .Cabecera{
-  background-color: #333333;
-
+  background-color: rgb(3, 3, 83); /*Definir un color de fondo */  
+  align-items: center;/*Alinear los objetos en el eje y*/  
+  align-items:flex-start;
+  
 }
+header{
+  display: inherit; /*Se hereda */  
+}
+
 ol{
+  justify-content: center; /*alinear los objetos*/  
+}
+.Cabecera header .ol.a{ 
+  color: azure; /*Definir el color en el texto*/  
+  text-decoration: none; /*Quitar las decoraciones subrayado */  
+  margin-right: 2%;
+}
+h1{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 40px;
-
-  
+  justify-content: center;
 }
-a, .Enlaces{
-  color: white;
-  text-decoration: none;
-}
-.Enlaces a{
-  padding-right: 20px;
-}
-.Final{
-  color: blue;
-  background-color: rgb(15 243 200);
-  height: 35px;
-  display: flex;
-  justify-content:flex-end;
-  align-items: center;
-}
-.HERO{
-  background-color: wheat;
-  padding-left: 22px;
-  color: rgb(54, 61, 61);
-  display: flex;
-}
-img{
-  width: 300px;
-  margin: 50px;
-  
+.Hero{
+  font-size: 30px;
+  background-image: url("../img/PORTADA.jpg");
 }
